@@ -1,0 +1,21 @@
+{
+    "name": "obeidat/src",
+    "description": "This is news CRUD that we will be using going on",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "obeidat\\Src\\": "src/obeidat/Src/",
+            "DevLabs\\Newscrud\\": "packages/devlabs/newscrud/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "redempro",
+            "email": "102581522+redempro@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "obeidat/src": "*"
+    }
+}
